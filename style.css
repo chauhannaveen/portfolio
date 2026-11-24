@@ -300,8 +300,7 @@ h3 {
 .project-media img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
 }
 
 .img-placeholder {
@@ -468,29 +467,8 @@ h3 {
     padding: 5rem 0;
   }
 
-  .project {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-  }
-
-  .project-media {
-    border-bottom: none;
-    border-right: 1px solid var(--border);
-  }
-
-  .img-placeholder {
-    height: 100%;
-    aspect-ratio: auto;
-    min-height: 220px;
-  }
-
-  .project-media img {
-    height: 100%;
-    aspect-ratio: auto;
-  }
-
   .project-body {
-    padding: 1.75rem;
+    padding: 1.75rem 2rem 2rem;
   }
 
   .footer-inner {
