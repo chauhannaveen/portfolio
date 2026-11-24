@@ -300,7 +300,8 @@ h3 {
 .project-media img {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .img-placeholder {
@@ -481,6 +482,11 @@ h3 {
     height: 100%;
     aspect-ratio: auto;
     min-height: 220px;
+  }
+
+  .project-media img {
+    height: 100%;
+    aspect-ratio: auto;
   }
 
   .project-body {
