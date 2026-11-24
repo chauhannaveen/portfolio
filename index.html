@@ -19,7 +19,7 @@
       <p class="hero-eyebrow">Naveen Chauhan · Full-stack developer</p>
       <h1>I build production-ready SaaS products in <span class="accent">weeks, not months</span>, using AI-assisted development.</h1>
       <p class="hero-sub">
-        Full-stack across .NET, Angular, Next.js, and PostgreSQL.
+        Full-stack across .NET, Angular, React, Next.js, Python, and PostgreSQL.
         This is a showcase of products I've designed and shipped end-to-end —
         auth, billing, background jobs, deployment — not prototypes that stall at the demo stage.
       </p>
@@ -53,35 +53,32 @@
         <h2>What I've built</h2>
         <p class="section-sub">Real products, built solo, running on production-grade stacks.</p>
 
-        <!-- Project 1: GhostRadar -->
+        <!-- Project 1: LeadForge -->
         <article class="project reveal">
           <div class="project-media">
             <!-- [ADD SCREENSHOT] — replace this placeholder div with:
-                 <img src="images/ghostradar.png" alt="GhostRadar dashboard screenshot" loading="lazy" /> -->
-            <div class="img-placeholder" role="img" aria-label="GhostRadar screenshot placeholder">
+                 <img src="images/leadforge.png" alt="LeadForge pipeline screenshot" loading="lazy" /> -->
+            <div class="img-placeholder" role="img" aria-label="LeadForge screenshot placeholder">
               <span>[ADD SCREENSHOT]</span>
             </div>
           </div>
           <div class="project-body">
-            <h3>GhostRadar</h3>
+            <h3>LeadForge</h3>
             <p class="project-oneliner">
-              A job application transparency platform — crowdsourced ghosting rates and response
-              times, so job seekers know what to expect before they apply.
+              A lead-gen CRM covering the full outreach lifecycle — find local businesses, enrich
+              verified emails, generate grounded pitches, send, and track follow-ups.
             </p>
-            <p class="build-time">⚡ Built solo in weeks — full SaaS with auth, billing, real-time notifications, PWA, moderation, and CI/CD.</p>
+            <p class="build-time">⚡ Built solo and live on Vercel — find → enrich → pitch → follow-up, wired across Google Places, Hunter.io, and Gmail/SendGrid.</p>
             <ul class="tags">
-              <li>.NET 8</li>
-              <li>Angular 18</li>
-              <li>PostgreSQL</li>
-              <li>EF Core</li>
-              <li>Google OAuth + Gmail API</li>
-              <li>SignalR + web push</li>
-              <li>Stripe billing</li>
-              <li>PWA offline sync</li>
-              <li>GitHub Actions · Docker · GHCR</li>
+              <li>Next.js 14 + TypeScript</li>
+              <li>Firebase / Firestore</li>
+              <li>Google Places API</li>
+              <li>Hunter.io enrichment</li>
+              <li>Gmail API · SendGrid</li>
+              <li>Groq + Claude</li>
             </ul>
             <div class="project-links">
-              <!-- [ADD LIVE LINK] — replace href="#" when deployed, or remove this button -->
+              <!-- [ADD LIVE LINK] — LeadForge is live on Vercel; paste the URL here -->
               <a class="btn btn-small btn-primary" href="#">Live site [ADD LIVE LINK]</a>
               <!-- [ADD GITHUB LINK] — replace href="#" with repo URL, or remove if private -->
               <a class="btn btn-small btn-ghost" href="#">GitHub [ADD LINK]</a>
@@ -89,7 +86,7 @@
           </div>
         </article>
 
-        <!-- Project 2: StockPulseAI -->
+        <!-- Project 2: StockPulse AI -->
         <article class="project reveal">
           <div class="project-media">
             <!-- [ADD SCREENSHOT] — replace this placeholder div with:
@@ -139,14 +136,14 @@
               An AI creator studio for short-form video — topic research with virality scoring,
               structured script generation, and a content scheduler in one dashboard.
             </p>
-            <p class="build-time">⚡ Built solo in weeks [CONFIRM BUILD TIME] — six specialized AI agents running in parallel cut a ~40s workflow to ~10s.</p>
+            <p class="build-time">⚡ Built solo in weeks [CONFIRM BUILD TIME] — specialized AI agents [CONFIRM 6 OR 8] run in parallel, cutting a ~40s workflow to ~10s.</p>
             <ul class="tags">
-              <li>React + shadcn/ui</li>
+              <li>React 19</li>
               <li>FastAPI (Python)</li>
+              <li>MongoDB</li>
+              <li>LiteLLM (multi-provider)</li>
               <li>Multi-agent orchestration</li>
-              <li>Anthropic · OpenAI · Gemini</li>
               <li>JWT + Google sign-in</li>
-              <li>TailwindCSS</li>
             </ul>
             <div class="project-links">
               <!-- [ADD LIVE LINK] — replace href="#" when deployed, or remove this button -->
@@ -157,32 +154,89 @@
           </div>
         </article>
 
-        <!-- Project 4: LeadForge -->
+        <!-- Project 4: PayMaster Pro -->
         <article class="project reveal">
           <div class="project-media">
             <!-- [ADD SCREENSHOT] — replace this placeholder div with:
-                 <img src="images/leadforge.png" alt="LeadForge pipeline screenshot" loading="lazy" /> -->
-            <div class="img-placeholder" role="img" aria-label="LeadForge screenshot placeholder">
+                 <img src="images/paymaster.png" alt="PayMaster Pro payroll screenshot" loading="lazy" /> -->
+            <div class="img-placeholder" role="img" aria-label="PayMaster Pro screenshot placeholder">
               <span>[ADD SCREENSHOT]</span>
             </div>
           </div>
           <div class="project-body">
-            <h3>LeadForge</h3>
+            <h3>PayMaster Pro</h3>
             <p class="project-oneliner">
-              A business-development tool covering the full outreach lifecycle — find local
-              businesses, enrich verified emails, generate pitches, send with approval, track follow-ups.
+              Multi-company payroll for an IT consultancy — select a company, run attendance and LOP,
+              calculate, override, finalize, and generate Excel &amp; PDF payslips.
             </p>
-            <p class="build-time">⚡ Built solo in weeks [CONFIRM BUILD TIME] — find → enrich → pitch → send → follow-up, wired across four external APIs.</p>
+            <p class="build-time">⚡ Built solo and running in production on the office LAN — one-command release builds, automatic database migrations, and rollback.</p>
             <ul class="tags">
-              <li>Next.js 14 + TypeScript</li>
-              <li>TailwindCSS</li>
-              <li>Firebase</li>
-              <li>Google Places API</li>
-              <li>Hunter.io enrichment</li>
-              <li>SendGrid</li>
+              <li>.NET 9 API</li>
+              <li>React 18</li>
+              <li>PostgreSQL</li>
+              <li>Windows Service</li>
+              <li>Excel &amp; PDF export</li>
+            </ul>
+            <div class="project-links">
+              <!-- Internal LAN tool — no public live link. Remove this button, or add a demo. -->
+              <a class="btn btn-small btn-ghost" href="#">Private — internal tool</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Prova -->
+        <article class="project reveal">
+          <div class="project-media">
+            <!-- [ADD SCREENSHOT] — replace this placeholder div with:
+                 <img src="images/prova.png" alt="Prova security report screenshot" loading="lazy" /> -->
+            <div class="img-placeholder" role="img" aria-label="Prova screenshot placeholder">
+              <span>[ADD SCREENSHOT]</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Prova</h3>
+            <p class="project-oneliner">
+              Proof-based security testing for web apps and APIs — authenticated crawling, injection
+              and BOLA/IDOR checks, and out-of-band SSRF detection proven by real callbacks, not guesswork.
+            </p>
+            <p class="build-time">⚡ Built solo — multi-identity access-matrix engine, shareable SOC 2 / ISO 27001-mapped reports, scheduled re-scans, and Stripe billing.</p>
+            <ul class="tags">
+              <li>Python backend</li>
+              <li>React + Vite</li>
+              <li>Out-of-band SSRF proof</li>
+              <li>Stripe billing</li>
+              <li>Docker</li>
             </ul>
             <div class="project-links">
               <!-- [ADD LIVE LINK] — replace href="#" when deployed, or remove this button -->
+              <a class="btn btn-small btn-primary" href="#">Live site [ADD LIVE LINK]</a>
+              <!-- [ADD GITHUB LINK] — replace href="#" with repo URL, or remove if private -->
+              <a class="btn btn-small btn-ghost" href="#">GitHub [ADD LINK]</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Pancha Tattva (Fable) -->
+        <article class="project reveal">
+          <div class="project-media">
+            <img src="images/panchatattva.jpg" alt="Pancha Tattva — WebGL scene with the title in Devanagari and Latin script" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>Pancha Tattva</h3>
+            <p class="project-oneliner">
+              A scroll journey through the five elements of Indian thought — every scene drawn live
+              on the GPU, no images or video, in four languages.
+            </p>
+            <p class="build-time">⚡ Built solo as a no-build static site — ten WebGL shader scenes, installable as an offline PWA.</p>
+            <ul class="tags">
+              <li>Vanilla JS</li>
+              <li>WebGL / GPU shaders</li>
+              <li>Offline PWA</li>
+              <li>4 languages</li>
+              <li>No build step</li>
+            </ul>
+            <div class="project-links">
+              <!-- [ADD LIVE LINK] — this one is a self-contained static page, easy to host + link -->
               <a class="btn btn-small btn-primary" href="#">Live site [ADD LIVE LINK]</a>
               <!-- [ADD GITHUB LINK] — replace href="#" with repo URL, or remove if private -->
               <a class="btn btn-small btn-ghost" href="#">GitHub [ADD LINK]</a>
